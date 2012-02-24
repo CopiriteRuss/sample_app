@@ -53,9 +53,9 @@ end
        response.should be_success
      end
      it "should have the right title" do
-       get 'about'
+       get 'help'
        response.should have_selector("title",
-                       :content => "Ruby on Rails Tutorial Sample App | About")
+                       :content => "Ruby on Rails Tutorial Sample App | Help")
    end
    end
    
